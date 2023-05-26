@@ -32,6 +32,10 @@ In this stage, the Airbnb Seattle datasets (Listings and Calendar) will be loade
 ### Data Cleaning and Treatment
 A thorough data cleaning process will be conducted, including the removal of outliers, format correction, and handling missing values. Furthermore, data will be processed to prepare it adequately for analysis.
 
+### Exploratory analisys
+
+
+
 ### Modeling
 In this stage, techniques for exploratory data analysis and statistical modeling will be applied to find the correlation between accommodation prices and the considered factors. The factors influencing host ratings and their relationship with guest satisfaction will be identified. Linear regression techniques will be employed to predict the expected review score for listings without an assigned score.
 
