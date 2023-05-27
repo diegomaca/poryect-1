@@ -39,12 +39,31 @@ A correlation analysis was also performed on the numerical variables, such as pr
 ### Modeling
 In this stage, techniques for exploratory data analysis and statistical modeling will be applied to find the correlation between accommodation prices and the considered factors. The factors influencing host ratings and their relationship with guest satisfaction will be identified. Linear regression techniques will be employed to predict the expected review score for listings without an assigned score.
 
-## Findings 
+## Summary of the results
+
+The detailed analysis and findings of this study can be found in the following link:
+https://medium.com/@diego.maca/exploratory-analysis-with-python-of-accommodation-prices-and-factors-influencing-review-scores-in-6010a52447fa .
+
+In this section, we provide a concise summary of the results obtained from the analysis.
 
 1. Accommodation Prices: A positive correlation was found between accommodation prices and factors such as size (number of bedrooms and bathrooms) and accommodation capacity. Additionally, the number of amenities offered also influences the price. These factors are important in determining the prices of accommodations in Seattle.
 
 2. Key Factors Influencing Review Scores: The key factors that influence review scores given by guests were identified. Accuracy, cleanliness, communication, value, and location are significant factors that influence review scores. Hosts who receive high scores in one of these aspects tend to receive high scores in other aspects as well. These factors are crucial for guest satisfaction and perception.
 
 3. Estimation of Review Scores: Linear regression models were developed to estimate review scores based on various variables. Consistent estimations for review scores were obtained, although there are areas for improvement, and the inclusion of additional variables could enhance the accuracy of the estimations.
+
+## Acknowledgment:
+
+For the dataset from Kaggle:
+Kaggle. (n.d.). Seattle Airbnb Open Data. Retrieved from https://www.kaggle.com/datasets/airbnb/seattle
+
+For the article on the CRISP-DM methodology:
+Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., ... & Wirth, R. (2000). CRISP-DM 1.0: Step-by-step data mining guide. Retrieved from https://www.datascience-pm.com/crisp-dm-2/
+
+For the classes in Module 1 of the Udacity Data Scientist Nanodegree Program:
+Udacity. (n.d.). Data Scientist Nanodegree Program. Module 1: Introduction to Data Science. Retrieved from [[link to the course](https://learn.udacity.com/nanodegrees/nd002/parts/cd0000)]([link to the course](https://learn.udacity.com/nanodegrees/nd002/parts/cd0000))
+
+## License MIT License
+
 ## Authors
 Diego Maca
