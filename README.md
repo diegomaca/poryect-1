@@ -61,7 +61,7 @@ For the article on the CRISP-DM methodology:
 Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., ... & Wirth, R. (2000). CRISP-DM 1.0: Step-by-step data mining guide. Retrieved from https://www.datascience-pm.com/crisp-dm-2/
 
 For the classes in Module 1 of the Udacity Data Scientist Nanodegree Program:
-Udacity. (n.d.). Data Scientist Nanodegree Program. Module 1: Introduction to Data Science. Retrieved from [[link to the course](https://learn.udacity.com/nanodegrees/nd002/parts/cd0000)]([link to the course](https://learn.udacity.com/nanodegrees/nd002/parts/cd0000))
+Udacity. (n.d.). Data Scientist Nanodegree Program. Module 1: Introduction to Data Science. Retrieved from [link to the course](https://learn.udacity.com/nanodegrees/nd002/parts/cd0000)](https://learn.udacity.com/nanodegrees/nd025)]([link to the course](https://learn.udacity.com/nanodegrees/nd025)
 
 ## License MIT License
 
