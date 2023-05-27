@@ -6,11 +6,10 @@
 - Seaborn
 - Matplotlib
 - Scikit-learn
-
 ## Motivation
 The aim of this project is to find the correlation between the prices of accommodations in Airbnb Seattle and factors such as location, size, amenities offered, and other relevant characteristics. Additionally, it seeks to identify the factors that influence host ratings and their relationship with guest satisfaction.
 
-With these goals in mind, the following questions are posed:
+## Questions
 
 1. What is the correlation between accommodation prices and factors such as location, size, capacity, amenities offered, among others?
 
@@ -19,7 +18,7 @@ With these goals in mind, the following questions are posed:
 3. What is the expected review score for listings without an assigned score, and how reliable is the estimation?
 
 ## Description of the Data Used
-This project is based on the following datasets from Airbnb Seattle:
+This project is based on the following datasets from Airbnb Seattle in archive.zip:
 - **Listings**: Contains detailed information about Airbnb properties in Seattle, such as price, location, size, and amenities offered.
 - **Calendar**: Provides information about availability and daily prices of Airbnb properties in Seattle.
 
@@ -33,11 +32,19 @@ In this stage, the Airbnb Seattle datasets (Listings and Calendar) will be loade
 A thorough data cleaning process will be conducted, including the removal of outliers, format correction, and handling missing values. Furthermore, data will be processed to prepare it adequately for analysis.
 
 ### Exploratory analisys
+In the exploratory analysis, various explorations and visualizations of the data were conducted to gain a better understanding of the characteristics and distributions of the relevant variables in the Airbnb Seattle dataset. Variables such as prices, accommodation capacity, number of bedrooms and bathrooms, as well as the quantity of amenities offered, were examined.
 
-
+A correlation analysis was also performed on the numerical variables, such as prices, accommodation capacity, and the number of bedrooms and bathrooms. This analysis was visualized using a heatmap, which allowed for the identification of possible relationships and dependencies among these variables.
 
 ### Modeling
 In this stage, techniques for exploratory data analysis and statistical modeling will be applied to find the correlation between accommodation prices and the considered factors. The factors influencing host ratings and their relationship with guest satisfaction will be identified. Linear regression techniques will be employed to predict the expected review score for listings without an assigned score.
 
+## Findings 
+
+1. Accommodation Prices: A positive correlation was found between accommodation prices and factors such as size (number of bedrooms and bathrooms) and accommodation capacity. Additionally, the number of amenities offered also influences the price. These factors are important in determining the prices of accommodations in Seattle.
+
+2. Key Factors Influencing Review Scores: The key factors that influence review scores given by guests were identified. Accuracy, cleanliness, communication, value, and location are significant factors that influence review scores. Hosts who receive high scores in one of these aspects tend to receive high scores in other aspects as well. These factors are crucial for guest satisfaction and perception.
+
+3. Estimation of Review Scores: Linear regression models were developed to estimate review scores based on various variables. Consistent estimations for review scores were obtained, although there are areas for improvement, and the inclusion of additional variables could enhance the accuracy of the estimations.
 ## Authors
 Diego Maca
